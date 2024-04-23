@@ -1,0 +1,201 @@
+:root {
+    --dark: #222222;
+    --light: #fff0f5;
+    --favorite: #aa8fb5;
+    --hf: #ffdae2;
+    --hfdark: #31292b;
+    --hoverbg: #eb4e56;
+    --sky: #ffbb8a;
+    --favdark: #d1afde;
+    --card-border: 15px;
+    --card-border-radius: 40px;
+    --tile-border: 35px;
+    --textbox-width: 75%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--dark);
+    align-self: center;
+    min-height: 100vh;
+    min-width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 3vb;
+}
+
+header {
+    margin-top: 0;
+    margin-bottom: auto;
+    padding: 20px;
+    border-bottom: solid var(--dark) 2px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: var(--hf);
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        margin: 20px;
+    }
+    li {
+        padding-left: 2%;
+        padding-right: 2%;
+        list-style-type: none;
+        a {
+            text-decoration: none;
+            color: var(--dark);
+        }
+    }
+}
+
+main {
+    flex:1;
+    background: -webkit-linear-gradient(left top, var(--sky), var(--favdark));
+    background: -o-linear-gradient(bottom right, var(--sky), var(--favdark));
+    background: -moz-linear-gradient(bottom right, var(--sky), var(--favdark));
+    background: linear-gradient(to bottom right, var(--sky), var(--favdark));
+}
+
+h1 {
+    border-bottom: solid var(--dark) 4px;
+    margin: 30px;
+}
+
+footer {
+    font-size: small;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 999;
+    border-top: solid var(--dark) 2px;
+    background-color: var(--hf); 
+    height: 145px;
+    p{
+        text-align: center;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    } li {
+        list-style-type: none;
+        img {
+            max-width: 70px;
+            border: solid transparent 15px;
+        }
+    }
+
+}
+
+#darkModeToggle {
+    position: absolute;
+    margin-left: 70%;
+    color: var(--light);
+    background-color: var(--dark);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.dark-mode {
+    body {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: var(--light);
+        align-self: center;
+        min-height: 100vh;
+        max-width: 100%;
+        margin: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        font-weight: 450;
+        line-height: 3vb;
+        background-color: var(--dark);
+    }
+    
+    header {
+        margin-top: 0;
+        margin-bottom: auto;
+        padding: 20px;
+        border-bottom: solid var(--light) 2px;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background-color: var(--hfdark);
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+            padding-left: 0;
+            margin: 20px;
+        }
+        li {
+            padding-left: 2%;
+            padding-right: 2%;
+            list-style-type: none;
+            a {
+                text-decoration: none;
+                color: var(--light);
+            }
+        }
+    }
+    
+    main {
+        flex:1;
+        color: var(--light);
+        background: -webkit-linear-gradient(left top, var(--dark), var(--favorite));
+        background: -o-linear-gradient(bottom right, var(--dark), var(--favorite));
+        background: -moz-linear-gradient(bottom right, var(--dark), var(--favorite));
+        background: linear-gradient(to bottom right, var(--dark), var(--favorite));
+    }
+    
+    h1 {
+        border-bottom: solid var(--light) 4px;
+        margin: 30px;
+    }
+
+    footer {
+        font-size: small;
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        padding: 10px 0;
+        z-index: 999;
+        border-top: solid var(--light) 2px;
+        background-color: var(--hfdark); 
+        height: 145px;
+        p{
+            text-align: center;
+            color: var(--light)
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding-left: 0;
+        } li {
+            list-style-type: none;
+            img {
+                max-width: 70px;
+                border: solid transparent 15px;
+            }
+        }
+    
+    }
+}

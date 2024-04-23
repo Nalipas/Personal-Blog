@@ -1,0 +1,26 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    text-align: left;
+    input[type=text] {
+        width: var(--textbox-width);
+    }
+    input[type=message] {
+        width: var(--textbox-width);
+        height: 500px;
+    }
+    textarea {
+        box-sizing: border-box;
+        width: var(--textbox-width);
+        height: 350px;
+    }
+    button {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: var(--textbox-width);
+        height: 50px;
+    }
+}
