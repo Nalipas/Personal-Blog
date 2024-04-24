@@ -52,6 +52,13 @@ header {
         a {
             text-decoration: none;
             color: var(--dark);
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 500;
+            letter-spacing: 3px;
+        }
+        a:hover {
+            text-decoration: none;
+            color: var(--light);
         }
     }
 }
@@ -102,11 +109,11 @@ footer {
     position: absolute;
     margin-left: 70%;
     color: var(--light);
-    background-color: var(--dark);
-    border: none;
+    background-color: var(--light);
+    border: solid var(--dark) 2px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .dark-mode {
@@ -170,7 +177,7 @@ footer {
     }
 
     footer {
-        font-size: small;
+        font-size: smaller;
         position: sticky;
         bottom: 0;
         width: 100%;
