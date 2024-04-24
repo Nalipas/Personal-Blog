@@ -2,9 +2,11 @@
     padding-right: 20px;
     padding-left: 20px;
     margin: 2%;
-    border-bottom: solid var(--dark) 2px;
+    background-color: var(--light);
+    border: solid var(--dark) 2px;
     h2 {
         margin: 20px;
+        border-bottom: solid var(--dark) 2px;
     }
 }
 
@@ -13,9 +15,11 @@
         padding-right: 20px;
         padding-left: 20px;
         margin: 2%;
-        border-bottom: solid var(--light) 2px;
+        background-color: var(--dark);
+        border: solid var(--light) 2px;
         h2 {
             margin: 20px;
+            border-bottom: solid var(--light) 2px;
         }
     }
 }
