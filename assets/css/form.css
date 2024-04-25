@@ -23,4 +23,9 @@ form {
         width: var(--textbox-width);
         height: 50px;
     }
+    p {
+        font-weight: 550;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
 }
