@@ -8,6 +8,10 @@ In this repository you will find the source code, reference links, and related d
 
 In the header, you can find navigation links and a dark mode toggle button, which updates the styling of the page. The users preference is also stored in localStorage, so the styling persists through both the form and blog pages. In the footer, you can find links to my LinkedIn profile, portfolio website, and twitch.tv channel.
 
+<p style="text-align:center">
+<img src="./assets/images/Personal-Blog.gif">
+</p>
+
 ## Getting Started
 
 ### Dependencies
