@@ -1,3 +1,5 @@
+/* Adds styling to the 'form' element */
+
 form {
     display: flex;
     flex-direction: column;
