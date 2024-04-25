@@ -105,6 +105,7 @@ footer {
 
 }
 
+/* Adds default styling to the 'darkModeToggle' button*/
 #darkModeToggle {
     position: absolute;
     margin-left: 70%;
@@ -116,6 +117,7 @@ footer {
     font-size: 24px;
 }
 
+/* Adds 'dark-mode' specific styling, which is activated through the addition of class 'dark-mode' to the 'body' element, trigged with JavaScript. */
 .dark-mode {
     body {
         display: flex;
