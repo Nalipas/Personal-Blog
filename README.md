@@ -30,6 +30,18 @@ There are no install directions here.
 You can find the published website hosted at 
 <a href="https://nalipas.github.io/Personal-Blog/">https://nalipas.github.io/Personal-Blog/</a>
 
+```
+* 3 text entry boxes are presented to you, the user, on the home/form page.
+* Enter your desired Username, Title, and Content for the blog post.
+    * All of these fields are required.
+* When you are satisfied with you post, click the 'SUBMIT POST' button.
+    * If any fields are left blank, the site will return an error. Correct any issues and try again.
+* Upon successful entry, you will be redirected to the blog page.
+```
+
+On the blog page, you will find your blog post, as well as any previous blog posts you have submitted. These posts are in order of newest first. As the data for the posts is stroed in local storage, these blog posts are only available to you on the current browser, and thus clearing your browsing data (local storage) will delete the posts.
+
+
 ## Help
 
 Please send an email to [smoreno2014\@gmail.com](mailto:smoreno2014@gmail.com?subject=Help) if you have any questions or if the published website returns an error.
