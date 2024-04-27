@@ -1,6 +1,9 @@
-# Personal Blog
+<div align="center">
+    <h1>Personal Blogh</h1>
+    <p>A simple blog page.</p>
+</div>
 
-A simple blog page.
+
 
 ## Description
 
