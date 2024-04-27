@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>Personal Blogh</h1>
+    <h1>Personal Blog</h1>
     <p>A simple blog page.</p>
 </div>
 
